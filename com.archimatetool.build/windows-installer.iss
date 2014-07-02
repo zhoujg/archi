@@ -5,7 +5,7 @@
 #define VERSION "2.7.1"
 #define APPNAME "Archi"
 #define APP_EXE "Archi.exe"
-#define SOURCE_DIR "E:\Archi\Archi_win\"
+#define SOURCE_DIR "E:\Archi\release\Archi_win\"
 
 ; Registry entries
 #define FILE_EXT ".archimate"

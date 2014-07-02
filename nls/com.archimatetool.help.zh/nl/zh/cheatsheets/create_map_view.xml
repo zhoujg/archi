@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cheatsheet
-      title="Create a Map View">
+      title="生成地图视图">
    <intro>
       <description>
          This cheat sheet shows you how to create a Map View of your existing Views. A Map View contains graphical boxes that are shortcuts that when double-clicked will open the linked View.<br/>

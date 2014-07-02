@@ -34,19 +34,34 @@
 
    <plugins>
       <plugin id="com.archimatetool.canvas"/>
+      <plugin id="com.archimatetool.canvas.zh" fragment="true"/>
       <plugin id="com.archimatetool.csv"/>
+      <plugin id="com.archimatetool.csv.tests" fragment="true"/>
+      <plugin id="com.archimatetool.csv.zh" fragment="true"/>
       <plugin id="com.archimatetool.editor"/>
       <plugin id="com.archimatetool.editor.fullscreen.macos" fragment="true"/>
       <plugin id="com.archimatetool.editor.launch.win32" fragment="true"/>
+      <plugin id="com.archimatetool.editor.tests" fragment="true"/>
+      <plugin id="com.archimatetool.editor.zh" fragment="true"/>
       <plugin id="com.archimatetool.export.svg"/>
+      <plugin id="com.archimatetool.export.svg.tests" fragment="true"/>
       <plugin id="com.archimatetool.help"/>
+      <plugin id="com.archimatetool.help.zh" fragment="true"/>
       <plugin id="com.archimatetool.jasperreports"/>
+      <plugin id="com.archimatetool.jasperreports.zh" fragment="true"/>
       <plugin id="com.archimatetool.jdom"/>
+      <plugin id="com.archimatetool.jdom.tests" fragment="true"/>
       <plugin id="com.archimatetool.model"/>
+      <plugin id="com.archimatetool.model.tests" fragment="true"/>
+      <plugin id="com.archimatetool.model.zh" fragment="true"/>
       <plugin id="com.archimatetool.reports"/>
+      <plugin id="com.archimatetool.reports.zh" fragment="true"/>
       <plugin id="com.archimatetool.templates"/>
+      <plugin id="com.archimatetool.templates.zh" fragment="true"/>
+      <plugin id="com.archimatetool.testsupport"/>
       <plugin id="com.archimatetool.widgets"/>
       <plugin id="com.archimatetool.zest"/>
+      <plugin id="com.archimatetool.zest.zh" fragment="true"/>
       <plugin id="com.ibm.icu"/>
       <plugin id="javax.el"/>
       <plugin id="javax.servlet"/>
@@ -79,10 +94,13 @@
       <plugin id="org.eclipse.equinox.preferences"/>
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.gef"/>
+      <plugin id="org.eclipse.gef.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.help"/>
       <plugin id="org.eclipse.help.base"/>
       <plugin id="org.eclipse.help.ui"/>
+      <plugin id="org.eclipse.help.ui.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.help.webapp"/>
+      <plugin id="org.eclipse.help.webapp.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.jetty.continuation"/>
       <plugin id="org.eclipse.jetty.http"/>
       <plugin id="org.eclipse.jetty.io"/>
@@ -92,6 +110,7 @@
       <plugin id="org.eclipse.jetty.util"/>
       <plugin id="org.eclipse.jface"/>
       <plugin id="org.eclipse.jface.databinding"/>
+      <plugin id="org.eclipse.jface.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.services"/>
       <plugin id="org.eclipse.swt"/>
@@ -112,14 +131,21 @@
       <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true"/>
       <plugin id="org.eclipse.ui"/>
       <plugin id="org.eclipse.ui.cheatsheets"/>
+      <plugin id="org.eclipse.ui.cheatsheets.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.ui.cocoa" fragment="true"/>
       <plugin id="org.eclipse.ui.forms"/>
+      <plugin id="org.eclipse.ui.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.ui.views"/>
+      <plugin id="org.eclipse.ui.views.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.ui.views.properties.tabbed"/>
+      <plugin id="org.eclipse.ui.views.properties.tabbed.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.ui.workbench"/>
+      <plugin id="org.eclipse.ui.workbench.nl_zh" fragment="true"/>
       <plugin id="org.eclipse.update.configurator"/>
       <plugin id="org.eclipse.zest.core"/>
       <plugin id="org.eclipse.zest.layouts"/>
+      <plugin id="org.hamcrest.core"/>
+      <plugin id="org.junit"/>
    </plugins>
 
    <features>

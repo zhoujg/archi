@@ -12,7 +12,8 @@
   	</description>
 	
 	<!-- Default/Start Target -->
-	<target name="run" depends="init, make_win_folder, make_win_zip, make_mac_zips, make_lnx_zip" />
+	<!--<target name="run" depends="init, make_win_folder, make_win_zip, make_mac_zips, make_lnx_zip" />-->
+	<target name="run" depends="init, make_win_folder, make_win_zip" />
 	
 	<!-- Init some stuff -->
 	<target name="init">
@@ -20,13 +21,13 @@
 		<!-- USER DEPENDENT VALUES - EDIT THESE VALUES FOR A BUILD -->
 	    <property name="jre.win32.dir"          location="C:\Program Files (x86)\Java\jre7"/>			<!-- Location of the bundled JRE for Windows -->
 		<property name="jre.mac64.zip"    		location="c:\dev\jre-mac64.zip"/>	<!-- Location of the bundled JRE for Mac -->
-		<property name="docs.dir"     			location="../../docs"/>				<!-- Location of the generated PDF docs -->
+		<property name="docs.dir"     			location="../../release/docs"/>				<!-- Location of the generated PDF docs -->
 		<property name="version" 				value="2.7.1"/>						<!-- Version of the Build -->
 		
 		<property name="app.name" 				value="Archi"/>
 		
 		<property name="src.dir"     			location="."/>
-	    <property name="output.dir"             location="/${app.name}"/>
+	    <property name="output.dir"             location="/${app.name}/release"/>
 	    <property name="folder.name"            value="${app.name}"/>
 	    <property name="tmp.dir"                location="${output.dir}/${folder.name}"/>
 	</target>
