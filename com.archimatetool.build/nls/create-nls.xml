@@ -15,7 +15,8 @@
 			"archi_version" should be the version of Archi these translations are for
 			"nls_version" should be the version of the language packs
 	  	</description>
-		<property name="lang_code"					value="en"/>
+		<!--property name="lang_code"					value="en"/> -->
+		<property name="lang_code"					value="zh"/>
 		<property name="archi_version"				value="2.7.1"/>
 		<property name="nls_version"				value="1.0.1"/>
 	</target>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="生成一个新模型">
+   <intro>
+      <description>
+         这个快速参考是教你如何一步一步新建一个基本的 ArchiMate 模型的指南
+      </description>
+   </intro>
+   <item
+         skip="false"
+         title="打开模型树">
+      <description>
+         为了在模型树中看到模型，确保模型树窗口可见
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.help"
+      		class="com.archimatetool.help.cheatsheets.ShowViewCheatSheetAction" 
+            param1="uk.ac.bolton.archimate.editor.treeModelView"/>
+            
+   </item>
+   <item
+         title="添加一个新模型">
+      <description>
+         点击工具条中的<b>&quot;新建控模型&quot;</b> 按钮或者在模型树中点击右键并选择“新建空模型”来添加新模型
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.editor"
+      		class="com.archimatetool.editor.actions.NewArchimateModelAction"/>
+   </item>
+   <item
+         title="模型中添加一个元素">
+      <description>
+         在模型树中你应该已经看到了一个基本的目录结构，你也看到了 <b>模型视图图形窗口</b> 已经打开。你可以从图例面板中拖放元素和连接到这个窗口来建立你的模型视图
+<br/><br/>
+你也可以直接在模型树中目录节点右键来选择<b>新建</b>菜单。一旦完成添加，你就可以把这个元素拖放到视图图形中
+      </description>
+   </item>
+</cheatsheet>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Language Pack
+Bundle-SymbolicName: com.archimatetool.editor.zh
+Bundle-Version: 1.0.1.qualifier
+Fragment-Host: com.archimatetool.editor;bundle-version="2.7.1"
+Bundle-ClassPath: com.archimatetool.editor.zh.jar

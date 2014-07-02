@@ -91,6 +91,7 @@ extends ActionBarAdvisor {
     private IAction fActionShowRelationsMatrix;
     
     private IAction fArchiWebsiteAction;
+    private IAction fZhoujgWebsiteAction;
     private IAction fActionCheckForNewVersion;
 
     
@@ -238,6 +239,9 @@ extends ActionBarAdvisor {
         
         // Archi website
         fArchiWebsiteAction = new ArchiWebsiteAction();
+        
+        // Zhoujg website
+        fZhoujgWebsiteAction = new ZhoujgWebsiteAction();      
         
         // Check for new Version
         fActionCheckForNewVersion = new CheckForNewVersionAction();
@@ -461,6 +465,9 @@ extends ActionBarAdvisor {
         menu.add(fArchiWebsiteAction);
         menu.add(fActionCheckForNewVersion);
         
+        menu.add(new Separator());
+        menu.add(fZhoujgWebsiteAction);
+
         menu.add(new Separator());
         menu.add(fActionShowRelationsMatrix);
 
